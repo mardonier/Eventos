@@ -43,9 +43,7 @@ p.addEventListener("click", function () {
 window.addEventListener("keyup", function (e) {
     if (e.key == 'q') {
         console.log("Você apertou a letra q")
-    } /*else if (e.key =="Enter") {
-        console.log("Você apertou enter")
-    }*/
+    } 
 })
 
 window.addEventListener("keyup", function (e) {
@@ -53,12 +51,6 @@ window.addEventListener("keyup", function (e) {
         console.log("Apetou o enter")
     }
 })
-/*
-window.addEventListener("mousemove", function(e){
-    console.log("Eixo x: " + e.x)
-    console.log("Eixo y: " + e.y)
-})
-*/
 
 window.addEventListener("scroll", function (e) {
     if (Window.pageYoffset > 100) {
@@ -73,8 +65,6 @@ input.addEventListener("focus", function () {
 input.addEventListener("blur", function () {
     console.log("Saiu do input")
 })
-
-
 
 window.addEventListener("mousemove", function (e) {
     clearTimeout(timeout)
